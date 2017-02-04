@@ -58,6 +58,7 @@ NO computer science degree
 
 Node is event driven, unlike eary javascriptajax request which is syncrounous.
 
+
 A simple intro tp the node command line...
 
 
@@ -68,3 +69,22 @@ run nodemon server.js
 run curl http://127.0.0.1:8000
 
 change the text to html and add res.write(...html...);
+
+add the setTimeout function
+
+install faye system...
+
+try moduletest with mymod
+
+try mymoduletest2 
+
+now lets get over with the faye the pub serve messaging it is essentially a system where you can publish your messages 
+in to the server or we can subscibe the file to receive it..
+
+REAL WORK
+
+1.) Make faye_server.js...It allows people to sit in the middle and allow people to message coming from it
+and it is simple
+
+create http and faye var
+

@@ -6,7 +6,10 @@ var http=require('http');
 var server=http.createServer(function(request,response){
 	response.writeHead(200,{"Content-type":"text/html"});
 	response.write("<html><body><h1>This is a Test ");
-	response.end("And now we are finished!");
+	
+	setTimeout(function(){
+		response.end("And now we'are finished!");
+	},2000);
 
 
 });
