@@ -96,5 +96,5 @@ run fayeserver
 
 
 make another client 2:: run client 
-and keep the content of client same as that of the client 
+and keep the content of client same as that of the client this acts as a receiver and is simple to use.
 
