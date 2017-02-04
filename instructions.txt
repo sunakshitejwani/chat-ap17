@@ -1,0 +1,70 @@
+We will be making the multi user real - time chat page using javascript.
+
+Nothin g advanced just basics and it willl be running on your own server on your Herrroku account, or whatever pretty much everything.
+
+we are going to dig into Node js, I ll be going through quick overview on how node modules work...
+
+We will connect our sever with the browser for doing the real time chat..
+
+
+Key things that we will focus on 
+Backend
++
+Frontend
++
+Deployment
+
+Backend
+We will be using Node Js  and Faye which is a library which we can use essentially on the backend and the frontend to do the browser to server kind of applications.
+We can also use socket io which is similar to faying.
+
+
+Front End:
+HTML
+plan old Javascript and a little bit of jquery makes in .
+We can put a real dynammic HTML template directly into HTML.
+And Faye
+
+
+Deployment:
+We are going to use Herokku:
+
+
+What is Node :
+Node is essentially a node running environ ment running on Javascript.
+A kind of javascript engine developed by google which is fast.
+
+Node is similar to the v8 engine but it is more than that, it has got a standard library  and a package managers npm and provides better organisation.
+
+Ryan Dahl created Node js
+
+
+SERVER SIDE
+===========
+Think Ruby, Python, PHP etc.
+Not stuff happening directly in the browser on the client end but code
+running on a a server on your machine .
+
+Why javascript?
+It is really fast..
+Single language front end and back now that browser apps are a big deal.
+
+
+What is node:
+Node is single threaded
+No locking needed
+NO computer science degree
+
+
+Node is event driven, unlike eary javascriptajax request which is syncrounous.
+
+A simple intro tp the node command line...
+
+
+Make server.js as instructed 
+
+run nodemon server.js
+
+run curl http://127.0.0.1:8000
+
+change the text to html and add res.write(...html...);
