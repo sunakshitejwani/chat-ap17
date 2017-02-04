@@ -88,3 +88,13 @@ and it is simple
 
 create http and faye var
 
+Faye will attach to the http library
+
+run fayeserver
+ make faye_client.js we notice that nothing is happening so we need to find out the next part of equation 
+ that is subscribe to the messages channel
+
+
+make another client 2:: run client 
+and keep the content of client same as that of the client 
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://localhost:8001/faye.js"></script>
+	<style type="text/css" href="style.css"></style>
+	<title></title>
+</head>
+<body>
+<button id="send">Click Me!</button>
+<div id="output"> </div>
+<script>
+	$(function(){
+		var client = new Faye.Client('http://localhost:8001/faye ');
+		$('#send').click(function(e){
+			client.publish('/messages',{text:"Hello World!"})
+		});
+	})
+</script>
+</body>
+</html>
