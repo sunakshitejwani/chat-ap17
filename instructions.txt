@@ -112,7 +112,7 @@ change the client function when enter text vanishes...
 
 paste the contents of index.html in the barebones file
 
-create a full server file and wwhich has node-dtatic which will inititalise any file in current directory...in static wa. but before that install node-static
+create a full server file and wwhich has node-static which will inititalise any file in current directory...in static wa. but before that install node-static
 
 
 host on heroku
