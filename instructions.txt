@@ -88,3 +88,31 @@ and it is simple
 
 create http and faye var
 
+Faye will attach to the http library
+
+run fayeserver
+ make faye_client.js we notice that nothing is happening so we need to find out the next part of equation 
+ that is subscribe to the messages channel
+
+
+make another client 2:: run client 
+and keep the content of client same as that of the client this acts as a receiver and is simple to use.
+
+make an html file called barebones.html 
+and create a 'click me' button for in it 
+write a script for click event :: function is to publish the messages(just like the faye_client.js function publish )
+and now run the local server in the background (either the python  simple HTTPserver or node.js's http-server). open another tab in the same window and run the fayE_client2.js... this is done to run the receive messages from the browser.
+run the local server in the brwoser(http one) and type barebones.html-click the button- it can be noticed that the messages are received in the fay_client2.js session .
+now this is the one way of sending the messages - now edit the barebones and add subscribe function just like the faye_client2.js run the server again and now open two browser windows with same location
+and press click me on both sides, we can see the "Hello World " message on both the sides.
+
+edit barebones and put the placeholder...
+change the publish text to #userinput (one entered in the browser...)
+change the client function when enter text vanishes...
+
+paste the contents of index.html in the barebones file
+
+create a full server file and wwhich has node-dtatic which will inititalise any file in current directory...in static wa. but before that install node-static
+
+
+host on heroku
